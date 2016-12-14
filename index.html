@@ -30,7 +30,7 @@
                 <b>
                     <li class="head_li"><a href="#">贴吧</a></li>
                 </b>
-                <li class="head_li"><a href="#">登录</a></li>
+                <li class="head_li" id="dl"><a href="#">登录</a></li>
                 <li class="head_li" id="shezhi"><a href="#">设置</a>
                     <ul id="sousuo_ul">
                         <li class="sousuo_li"><a href="#">搜索设置</a></li>
@@ -107,23 +107,41 @@
         </div>
         <div id="dl_shuru">
             <div id="user_dl" class="dl_input">
-                <img src="img/index/user.png">
-                <input type="text" placeholder="手机/邮箱/用户名">
+                <img src="img/index/user.png" id="user_img">
+                <input type="text" placeholder="手机/邮箱/用户名" id="user">
             </div>
             <div id="password_dl" class="dl_input">
-                <img src="img/index/suo.png">
-                <input type="text" placeholder="密码">
+                <img src="img/index/suo.png" id="suo_img">
+                <input type="text" placeholder="密码" id="pwd">
             </div>
             <div>
-               <input type="text" placeholder="输入验证码" id="yanzheng_input">
+                <input type="text" placeholder="输入验证码" id="yanzheng_input">
             </div>
             <div>
                 <input type="checkbox" id="checkbox">
-                <span  id="xc_dl">下次自动等登录</span>
+                <span id="xc_dl">下次自动等登录</span>
                 <a href="#" id="wenti_dl">登录遇到问题</a>
             </div>
         </div>
+        <div id="anniu_dl">
+            <button id="dl_btn">登录</button>
+            <a href="#">立即注册</a>
+        </div>
     </div>
+    <div id="end_dl">
+        <p>可以使用一下方式登录</p>
+        <img src="img/index/weibo.png" id="weibo_img">
+        <img src="img/index/qq.png" id="qq_img">
+        <img src="img/index/saoma.png" id="saoma_img">
+    </div>
+</div>
+<div id="erweima_div">
+    <span id="sm_span">手机扫描，安全登录</span>
+    <img src="img/index/ma.png" id="ma_img">
+   <div class="end">
+       <span>请使用<a href="#">手机百度APP</a>扫描登录</span>
+   </div>
+    <img src="img/index/dianshi.png" id="dianshi_img">
 </div>
 </body>
 </html>

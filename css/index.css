@@ -4,7 +4,7 @@ body{
 }
 #shouye_div{
     width: 1226px;
-    height: 600px;
+    height:545px;
     /*background-color: blue;*/
 }
 #head_div{
@@ -281,20 +281,22 @@ body{
     top: 359px;
 }
 #opacity_div{
-    width: 1226px;
+    width: 1242px;
     height: 600px;
     background-color: gray;
     position: absolute;
     top: 0;
     opacity: 0.3;
+    display: none;
 }
 #dl_div{
     width: 393px;
     height: 505px;
     position: absolute;
-    top: 0;
+    top: 45px;
     left: 382px;
     background-color: #FFF;
+    display: none;
 }
 #dl_head{
     background-color: #f7f7f7;
@@ -321,11 +323,11 @@ body{
     left: 365px;
     top: 16px;
     width: 16px;
+    cursor: pointer;
 }
 #dl_body{
     width: 393px;
     height: 458px;
-    background: red;
 }
 #xinxidl{
     width: 393px;
@@ -350,7 +352,6 @@ body{
 #dl_shuru{
     width: 351px;
     height: 200px;
-    background: yellow;
     position: absolute;
     left: 22px;
     top: 78px;
@@ -384,6 +385,7 @@ body{
 #yanzheng_input{
     width: 192px;
     height: 42px;
+    border: 1px solid #ddd;
 }
 #checkbox{
     position: absolute;
@@ -407,4 +409,117 @@ body{
 }
 #wenti_dl:hover{
     text-decoration: underline;
+}
+#anniu_dl{
+    width: 350px;
+    height: 76px;
+    position: absolute;
+    top: 287px;
+    left: 22px;
+}
+#dl_btn{
+    width: 350px;
+    height: 48px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    border-radius: 4px;
+    background-color: #4490f7;
+    cursor: pointer;
+}
+#dl_btn:hover{
+    background-color: #3f89ec;
+}
+#anniu_dl a{
+    color: #2e7fdb;
+    font-size: 12px;
+    text-decoration: none;
+    position: absolute;
+    left: 300px;
+    top: 60px;
+}
+#anniu_dl a:hover{
+    text-decoration: underline;
+}
+#end_dl{
+    width: 393px;
+    height: 89px;
+    position: absolute;
+    top: 419px;
+    border-top: 1px solid #eee;
+}
+#end_dl p{
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 23px;
+}
+#weibo_img{
+    position: absolute;
+    left: 23px;
+    top: 36px;
+    cursor: pointer;
+}
+#qq_img{
+    position: absolute;
+    left: 70px;
+    top: 36px;
+    cursor: pointer;
+}
+#saoma_img{
+    position: absolute;
+    left: 351px;
+    top: 42px;
+    cursor: pointer;
+}
+#erweima_div{
+    width: 393px;
+    height: 458px;
+    position: absolute;
+    top: 91px;
+    left: 382px;
+    background-color: #FFF;
+    display: none;
+}
+#ma_img{
+    border: 1px solid #ccc;
+    width: 123px;
+    height: 123px;
+    position: absolute;
+    left: 131px;
+    top: 99px;
+    cursor: pointer;
+}
+#sm_span{
+    font-size: 16px;
+    position: absolute;
+    left: 122px;
+    top: 60px;
+}
+.end{
+    width: 163px;
+    height: 24px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 245px;
+    left: 113px;
+    border-radius: 3px;
+}
+.end span{
+    color: #666;
+    font-size: 13px;
+}
+.end a{
+    text-decoration: none;
+    color: rgb(27, 102, 199);
+}
+.end a:hover{
+    text-decoration: underline;
+}
+#dianshi_img{
+    position: absolute;
+    left: 349px;
+    top: 416px;
+    cursor: pointer;
 }
