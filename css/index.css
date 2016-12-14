@@ -1,0 +1,410 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#shouye_div{
+    width: 1226px;
+    height: 600px;
+    /*background-color: blue;*/
+}
+#head_div{
+    width: 1226px;
+    height: 191px;
+    /*background-color: yellow;*/
+    position: absolute;
+    top: 35px;
+}
+#logo_div{
+    text-align: center;
+    width: 1226px;
+    height: 121px;
+    /*background-color: red;*/
+}
+#logo_div img{
+    position: absolute;
+    left:490px;
+    top: 35px;
+}
+#form_div{
+    width: 641px;
+    height: 37px;
+    /*background-color: antiquewhite;*/
+    position: absolute;
+    left: 291px;
+    top: 152px;
+}
+#form_div input{
+    border: 1px solid #b6b6b6;
+    width: 539px;
+    height: 33px;
+    outline: none;
+}
+#form_div button{
+    width: 100px;
+    height: 37px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    /*border-bottom: 1px solid #2d78f4;*/
+    outline: medium;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+}
+#form_div img{
+    width: 18px;
+    height: 16px;
+    position: absolute;
+    left: 512px;
+    top: 11px;
+    cursor: pointer;
+}
+#form_div button:hover{
+    background:#317ef3;
+    box-shadow:1px 1px 1px #ccc
+}
+#ul_div{
+    width: 481px;
+    height: 24px;
+    position: absolute;
+    top: -24px;
+    left: 744px;
+}
+.head_ul{
+    list-style-type: none;
+    position: absolute;
+    left: 0px;
+    top: -14px;
+}
+.head_li{
+    float: left;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 13px;
+    padding-right: 18px;
+}
+.head_li a{
+    color: #333;
+}
+.head_li a:hover{
+    color: #00c;
+}
+#sousuo_ul{
+    list-style-type: none;
+    width: 66px;
+    border: 1px solid #b6b6b6;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 344px;
+    box-shadow: 2px 2px 2px #ccc;
+    display: none;
+}
+.sousuo_li{
+    position: relative;
+    left: 6px;
+}
+.sousuo_li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+}
+#gdcp{
+    width: 60px;
+    height: 24px;
+    background: #38f;
+    position: absolute;
+    left: 414px;
+    font-size: 13px;
+    text-align: center;
+}
+#gdcp span{
+    position: absolute;
+    left: 6px;
+    top: 5px;
+}
+#gdcp span a{
+    color: #fff;
+    text-decoration: none;
+}
+#gdcp span a:hover{
+    text-decoration: underline;
+}
+
+#end_div{
+    position: absolute;
+    top: 418px;
+    width: 1226px;
+    height: 137px;
+}
+#end_div a{
+    color: #999;
+}
+#erweima{
+    position: absolute;
+    left: 565px;
+}
+#end_div p b{
+    color: #666;
+    font-weight: 700;
+    font-size: 12px;
+    position: absolute;
+    left: 570px;
+    top: 64px;
+}
+#end_div ul{
+    list-style-type: none;
+    position: absolute;
+    top: 77px;
+    left: 390px;
+}
+#end_div ul li{
+    float: left;
+    padding-right: 28px;
+}
+#end_div ul li a{
+    color: #999;
+    font-size: 12px;
+}
+#end_p{
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    left: 364px;
+    top: 105px;
+}
+#end_img{
+    position: absolute;
+    left: 286px;
+}
+#right_div{
+    width: 85px;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    height: 597px;
+    display: none;
+}
+#right_div span{
+    color: #333;
+    text-align: center;
+    width: 66px;
+    height: 43px;
+    line-height: 43px;
+    border-bottom: #f0f0f0 1px solid;
+    font-size: 13px;
+    cursor: default;
+    display: block;
+    position: absolute;
+    left: 10px;
+}
+#display_div{
+    width: 85px;
+    height: 551px;
+    position: absolute;
+    top: 45px;
+}
+#display_div div{
+    display: block;
+    width: 66px;
+    height: 68px;
+    border-bottom: #f0f0f0 1px solid;
+    margin: auto;
+}
+#display_div div a{
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+.du{
+    top: 17px;
+    position: absolute;
+    left: 23px;
+}
+#display_div a:hover{
+    text-decoration: underline;
+}
+.music{
+    position: absolute;
+    top: 45px;
+    left: 30px;
+}
+.tu{
+    position: absolute;
+    left: 26px;
+    top: 83px;
+}
+.tupian{
+    position: absolute;
+    top: 118px;
+    left: 30px;
+}
+.wen{
+    position: absolute;
+    left: 26px;
+    top: 150px;
+}
+.zhidao{
+    position: absolute;
+    left: 30px;
+    top: 188px;
+}
+.wenk{
+    position: absolute;
+    left: 26px;
+    top: 223px;
+}
+.wenku{
+    position: absolute;
+    left: 30px;
+    top: 259px;
+}
+.yinyue{
+    position: absolute;
+    left: 26px;
+    top: 291px;
+}
+.fengyunbang{
+    position: absolute;
+    left: 25px;
+    top: 325px;
+}
+.qbcp{
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 359px;
+}
+#opacity_div{
+    width: 1226px;
+    height: 600px;
+    background-color: gray;
+    position: absolute;
+    top: 0;
+    opacity: 0.3;
+}
+#dl_div{
+    width: 393px;
+    height: 505px;
+    position: absolute;
+    top: 0;
+    left: 382px;
+    background-color: #FFF;
+}
+#dl_head{
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    width: 392px;
+    height: 48px;
+}
+#baidu_img{
+    position: absolute;
+    top: 12px;
+    left: 23px;
+    width: 25px;
+    height: 25px;
+}
+#dl_head span{
+    font-size: 16px;
+    color: #666;
+    position: absolute;
+    left: 57px;
+    top: 16px;
+}
+#dianji_img{
+    position: absolute;
+    left: 365px;
+    top: 16px;
+    width: 16px;
+}
+#dl_body{
+    width: 393px;
+    height: 458px;
+    background: red;
+}
+#xinxidl{
+    width: 393px;
+    height: 19px;
+}
+#xinxidl img{
+    position: absolute;
+    left: 290px;
+}
+#xinxidl a{
+    font-size: 12px;
+    color: #666;
+    text-decoration: none;
+    position: absolute;
+    left: 307px;
+    top: 53px;
+}
+#xinxidl a:hover{
+    color: #2e7fdb;
+    text-decoration: underline;
+}
+#dl_shuru{
+    width: 351px;
+    height: 200px;
+    background: yellow;
+    position: absolute;
+    left: 22px;
+    top: 78px;
+}
+.dl_input{
+    width: 351px;
+    height: 42px;
+    background: #fff;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+}
+.dl_input input{
+    width: 314px;
+    height: 39px;
+    border: none;
+    position: absolute;
+    left: 35px;
+    outline: none;
+}
+#user_dl img{
+    position: absolute;
+    top: 13px;
+    left: 12px;
+}
+#password_dl img{
+    position: absolute;
+    top: 68px;
+    left: 12px;
+}
+
+#yanzheng_input{
+    width: 192px;
+    height: 42px;
+}
+#checkbox{
+    position: absolute;
+    top: 180px;
+}
+#xc_dl{
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    left: 21px;
+    top: 181px;
+    text-decoration: none;
+}
+#wenti_dl{
+    color: #2e7fdb;
+    font-size: 12px;
+    text-decoration: none;
+    position: absolute;
+    left: 279px;
+    top: 182px;
+}
+#wenti_dl:hover{
+    text-decoration: underline;
+}
