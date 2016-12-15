@@ -1,31 +1,36 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
-#shouye_div{
+
+#shouye_div {
     width: 1226px;
-    height:545px;
+    height: 545px;
     /*background-color: blue;*/
 }
-#head_div{
+
+#head_div {
     width: 1226px;
     height: 191px;
     /*background-color: yellow;*/
     position: absolute;
     top: 35px;
 }
-#logo_div{
+
+#logo_div {
     text-align: center;
     width: 1226px;
     height: 121px;
     /*background-color: red;*/
 }
-#logo_div img{
+
+#logo_div img {
     position: absolute;
-    left:490px;
+    left: 490px;
     top: 35px;
 }
-#form_div{
+
+#form_div {
     width: 641px;
     height: 37px;
     /*background-color: antiquewhite;*/
@@ -33,13 +38,15 @@ body{
     left: 291px;
     top: 152px;
 }
-#form_div input{
+
+#form_div input {
     border: 1px solid #b6b6b6;
     width: 539px;
     height: 33px;
     outline: none;
 }
-#form_div button{
+
+#form_div button {
     width: 100px;
     height: 37px;
     color: #fff;
@@ -52,7 +59,8 @@ body{
     border: none;
     cursor: pointer;
 }
-#form_div img{
+
+#form_div img {
     width: 18px;
     height: 16px;
     position: absolute;
@@ -60,37 +68,44 @@ body{
     top: 11px;
     cursor: pointer;
 }
-#form_div button:hover{
-    background:#317ef3;
-    box-shadow:1px 1px 1px #ccc
+
+#form_div button:hover {
+    background: #317ef3;
+    box-shadow: 1px 1px 1px #ccc
 }
-#ul_div{
+
+#ul_div {
     width: 481px;
     height: 24px;
     position: absolute;
     top: -24px;
     left: 744px;
 }
-.head_ul{
+
+.head_ul {
     list-style-type: none;
     position: absolute;
     left: 0px;
     top: -14px;
 }
-.head_li{
+
+.head_li {
     float: left;
     font-weight: 700;
     line-height: 24px;
     font-size: 13px;
     padding-right: 18px;
 }
-.head_li a{
+
+.head_li a {
     color: #333;
 }
-.head_li a:hover{
+
+.head_li a:hover {
     color: #00c;
 }
-#sousuo_ul{
+
+#sousuo_ul {
     list-style-type: none;
     width: 66px;
     border: 1px solid #b6b6b6;
@@ -101,16 +116,19 @@ body{
     box-shadow: 2px 2px 2px #ccc;
     display: none;
 }
-.sousuo_li{
+
+.sousuo_li {
     position: relative;
     left: 6px;
 }
-.sousuo_li a{
+
+.sousuo_li a {
     text-decoration: none;
     font-size: 12px;
     color: #333;
 }
-#gdcp{
+
+#gdcp {
     width: 60px;
     height: 24px;
     background: #38f;
@@ -119,33 +137,39 @@ body{
     font-size: 13px;
     text-align: center;
 }
-#gdcp span{
+
+#gdcp span {
     position: absolute;
     left: 6px;
     top: 5px;
 }
-#gdcp span a{
+
+#gdcp span a {
     color: #fff;
     text-decoration: none;
 }
-#gdcp span a:hover{
+
+#gdcp span a:hover {
     text-decoration: underline;
 }
 
-#end_div{
+#end_div {
     position: absolute;
     top: 418px;
     width: 1226px;
     height: 137px;
 }
-#end_div a{
+
+#end_div a {
     color: #999;
 }
-#erweima{
+
+#erweima {
     position: absolute;
     left: 565px;
 }
-#end_div p b{
+
+#end_div p b {
     color: #666;
     font-weight: 700;
     font-size: 12px;
@@ -153,32 +177,38 @@ body{
     left: 570px;
     top: 64px;
 }
-#end_div ul{
+
+#end_div ul {
     list-style-type: none;
     position: absolute;
     top: 77px;
     left: 390px;
 }
-#end_div ul li{
+
+#end_div ul li {
     float: left;
     padding-right: 28px;
 }
-#end_div ul li a{
+
+#end_div ul li a {
     color: #999;
     font-size: 12px;
 }
-#end_p{
+
+#end_p {
     color: #999;
     font-size: 12px;
     position: absolute;
     left: 364px;
     top: 105px;
 }
-#end_img{
+
+#end_img {
     position: absolute;
     left: 286px;
 }
-#right_div{
+
+#right_div {
     width: 85px;
     border-left: 1px solid #e7e7e7;
     position: absolute;
@@ -189,7 +219,8 @@ body{
     height: 597px;
     display: none;
 }
-#right_div span{
+
+#right_div span {
     color: #333;
     text-align: center;
     width: 66px;
@@ -202,85 +233,101 @@ body{
     position: absolute;
     left: 10px;
 }
-#display_div{
+
+#display_div {
     width: 85px;
     height: 551px;
     position: absolute;
     top: 45px;
 }
-#display_div div{
+
+#display_div div {
     display: block;
     width: 66px;
     height: 68px;
     border-bottom: #f0f0f0 1px solid;
     margin: auto;
 }
-#display_div div a{
+
+#display_div div a {
     color: #666;
     text-decoration: none;
     font-size: 12px;
 }
-.du{
+
+.du {
     top: 17px;
     position: absolute;
     left: 23px;
 }
-#display_div a:hover{
+
+#display_div a:hover {
     text-decoration: underline;
 }
-.music{
+
+.music {
     position: absolute;
     top: 45px;
     left: 30px;
 }
-.tu{
+
+.tu {
     position: absolute;
     left: 26px;
     top: 83px;
 }
-.tupian{
+
+.tupian {
     position: absolute;
     top: 118px;
     left: 30px;
 }
-.wen{
+
+.wen {
     position: absolute;
     left: 26px;
     top: 150px;
 }
-.zhidao{
+
+.zhidao {
     position: absolute;
     left: 30px;
     top: 188px;
 }
-.wenk{
+
+.wenk {
     position: absolute;
     left: 26px;
     top: 223px;
 }
-.wenku{
+
+.wenku {
     position: absolute;
     left: 30px;
     top: 259px;
 }
-.yinyue{
+
+.yinyue {
     position: absolute;
     left: 26px;
     top: 291px;
 }
-.fengyunbang{
+
+.fengyunbang {
     position: absolute;
     left: 25px;
     top: 325px;
 }
-.qbcp{
+
+.qbcp {
     color: #666;
     font-size: 12px;
     position: absolute;
     left: 15px;
     top: 359px;
 }
-#opacity_div{
+
+#opacity_div {
     width: 1242px;
     height: 600px;
     background-color: gray;
@@ -289,7 +336,8 @@ body{
     opacity: 0.3;
     display: none;
 }
-#dl_div{
+
+#dl_div {
     width: 393px;
     height: 505px;
     position: absolute;
@@ -298,46 +346,54 @@ body{
     background-color: #FFF;
     display: none;
 }
-#dl_head{
+
+#dl_head {
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     width: 392px;
     height: 48px;
 }
-#baidu_img{
+
+#baidu_img {
     position: absolute;
     top: 12px;
     left: 23px;
     width: 25px;
     height: 25px;
 }
-#dl_head span{
+
+#dl_head span {
     font-size: 16px;
     color: #666;
     position: absolute;
     left: 57px;
     top: 16px;
 }
-#dianji_img{
+
+#dianji_img {
     position: absolute;
     left: 365px;
     top: 16px;
     width: 16px;
     cursor: pointer;
 }
-#dl_body{
+
+#dl_body {
     width: 393px;
     height: 458px;
 }
-#xinxidl{
+
+#xinxidl {
     width: 393px;
     height: 19px;
 }
-#xinxidl img{
+
+#xinxidl img {
     position: absolute;
     left: 290px;
 }
-#xinxidl a{
+
+#xinxidl a {
     font-size: 12px;
     color: #666;
     text-decoration: none;
@@ -345,25 +401,29 @@ body{
     left: 307px;
     top: 53px;
 }
-#xinxidl a:hover{
+
+#xinxidl a:hover {
     color: #2e7fdb;
     text-decoration: underline;
 }
-#dl_shuru{
+
+#dl_shuru {
     width: 351px;
     height: 200px;
     position: absolute;
     left: 22px;
     top: 78px;
 }
-.dl_input{
+
+.dl_input {
     width: 351px;
     height: 42px;
     background: #fff;
     margin-bottom: 15px;
     border: 1px solid #ddd;
 }
-.dl_input input{
+
+.dl_input input {
     width: 314px;
     height: 39px;
     border: none;
@@ -371,27 +431,31 @@ body{
     left: 35px;
     outline: none;
 }
-#user_dl img{
+
+#user_dl img {
     position: absolute;
     top: 13px;
     left: 12px;
 }
-#password_dl img{
+
+#password_dl img {
     position: absolute;
     top: 68px;
     left: 12px;
 }
 
-#yanzheng_input{
+#yanzheng_input {
     width: 192px;
     height: 42px;
     border: 1px solid #ddd;
 }
-#checkbox{
+
+#checkbox {
     position: absolute;
     top: 180px;
 }
-#xc_dl{
+
+#xc_dl {
     color: #666;
     font-size: 12px;
     position: absolute;
@@ -399,7 +463,8 @@ body{
     top: 181px;
     text-decoration: none;
 }
-#wenti_dl{
+
+#wenti_dl {
     color: #2e7fdb;
     font-size: 12px;
     text-decoration: none;
@@ -407,17 +472,20 @@ body{
     left: 279px;
     top: 182px;
 }
-#wenti_dl:hover{
+
+#wenti_dl:hover {
     text-decoration: underline;
 }
-#anniu_dl{
+
+#anniu_dl {
     width: 350px;
     height: 76px;
     position: absolute;
     top: 287px;
     left: 22px;
 }
-#dl_btn{
+
+#dl_btn {
     width: 350px;
     height: 48px;
     border: none;
@@ -428,10 +496,12 @@ body{
     background-color: #4490f7;
     cursor: pointer;
 }
-#dl_btn:hover{
+
+#dl_btn:hover {
     background-color: #3f89ec;
 }
-#anniu_dl a{
+
+#anniu_dl a {
     color: #2e7fdb;
     font-size: 12px;
     text-decoration: none;
@@ -439,41 +509,48 @@ body{
     left: 300px;
     top: 60px;
 }
-#anniu_dl a:hover{
+
+#anniu_dl a:hover {
     text-decoration: underline;
 }
-#end_dl{
+
+#end_dl {
     width: 393px;
     height: 89px;
     position: absolute;
     top: 419px;
     border-top: 1px solid #eee;
 }
-#end_dl p{
+
+#end_dl p {
     color: #666;
     font-size: 12px;
     position: absolute;
     left: 23px;
 }
-#weibo_img{
+
+#weibo_img {
     position: absolute;
     left: 23px;
     top: 36px;
     cursor: pointer;
 }
-#qq_img{
+
+#qq_img {
     position: absolute;
     left: 70px;
     top: 36px;
     cursor: pointer;
 }
-#saoma_img{
+
+#saoma_img {
     position: absolute;
     left: 351px;
     top: 42px;
     cursor: pointer;
 }
-#erweima_div{
+
+#erweima_div {
     width: 393px;
     height: 458px;
     position: absolute;
@@ -482,7 +559,8 @@ body{
     background-color: #FFF;
     display: none;
 }
-#ma_img{
+
+#ma_img {
     border: 1px solid #ccc;
     width: 123px;
     height: 123px;
@@ -491,13 +569,15 @@ body{
     top: 99px;
     cursor: pointer;
 }
-#sm_span{
+
+#sm_span {
     font-size: 16px;
     position: absolute;
     left: 122px;
     top: 60px;
 }
-.end{
+
+.end {
     width: 163px;
     height: 24px;
     background: #f1f1f1;
@@ -506,18 +586,22 @@ body{
     left: 113px;
     border-radius: 3px;
 }
-.end span{
+
+.end span {
     color: #666;
     font-size: 13px;
 }
-.end a{
+
+.end a {
     text-decoration: none;
     color: rgb(27, 102, 199);
 }
-.end a:hover{
+
+.end a:hover {
     text-decoration: underline;
 }
-#dianshi_img{
+
+#dianshi_img {
     position: absolute;
     left: 349px;
     top: 416px;

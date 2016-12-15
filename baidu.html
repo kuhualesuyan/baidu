@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度新闻</title>
+    <script defer src="js/baidu.js"></script>
+    <link rel="stylesheet" href="css/baidu.css">
+</head>
+<body>
+    <div id="top">
+        <ul>
+            <li class="addcolor"><a href="#">网页</a></li>
+            <li class="addcolor"><a href="#" style="color:#666666;text-decoration: none">新闻</a></li>
+            <li class="addcolor"><a href="#">贴吧</a></li>
+            <li class="addcolor"><a href="#">知道</a></li>
+            <li class="addcolor"><a href="#">音乐</a></li>
+            <li class="addcolor"><a href="#">图片</a></li>
+            <li class="addcolor"><a href="#">视频</a></li>
+            <li class="addcolor"><a href="#">地图</a></li>
+            <li class="addcolor"><a href="#">文库</a></li>
+            <li><a href="#" style="color:#666666;text-decoration: none">|</a></li>
+            <li><a href="#">百度首页</a></li>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">百度新闻客户端</a></li>
+        </ul>
+    </div>
+    <div id="search">
+        <img src="img/百度新闻.jpg">
+        <label><input type="text" class="input"></label>
+        <button>百度一下</button>
+        <ul>
+            <li><a href="#"><span>帮助</span></a></li>
+            <li><a href="#"><span>高级搜索</span></a></li>
+            <li><a href="#"><span>设置</span></a></li>
+        </ul>
+        <div id="news">
+            <label><input type="radio" name="name" checked="checked"/><span>新闻全文</span></label>
+            <label><input type="radio" name="name" /><span>新闻标题</span></label>
+        </div>
+    </div>
+    <div class="b_nav_wrap">
+        <ul class="b_nav" id="b_nav">
+            <div class="ani_red" id="ani_red"></div>
+            <li class="b_nav_li">首页</li>
+            <li class="b_nav_li">百家</li>
+            <li class="b_nav_li">财经</li>
+            <li class="b_nav_li">娱乐</li>
+            <li class="b_nav_li">体育</li>
+            <li class="b_nav_li">互联网</li>
+            <li class="b_nav_li">时尚</li>
+            <li class="b_nav_li">汽车</li>
+            <li class="b_nav_li">国内</li>
+            <li class="b_nav_li">国际</li>
+            <li class="b_nav_li">军事</li>
+            <li class="b_nav_li">社会</li>
+            <li class="b_nav_li">传媒</li>
+            <li class="b_nav_li">视频</li>
+            <li class="b_nav_li">个性推荐</li>
+            <li class="b_nav_li">房产</li>
+            <li class="b_nav_li">名站</li>
+            <li class="b_nav_li" id="more">更多
+                <ul id="keji">
+                    <li>科技</li>
+                    <li>女人</li>
+                    <li>游戏</li>
+                    </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="first">
+        <div id="leftall">
+            <div id="hot">
+                <ul>
+                    <li><span style="color: #2f63ba;">热点要闻</span></li>
+                    <li style="border-bottom: none"><span style="border-right: none;">个性推荐</span></li>
+                    <li>
+                        <img src="img/know.jpg">
+                    </li>
+                </ul>
+            </div>
+            <div class="myImg"><a href=""><img src="" id="tuPian"></a></div>
+            <div class="mdiv">
+                <div class="myDiv"></div>
+                <div class="myDiv"></div>
+                <div class="myDiv"></div>
+                <div class="myDiv"></div>
+                <div class="myDiv"></div>
+                <div class="myDiv"></div>
+                <div class="myDiv"></div>
+                <div class="myDiv"></div>
+            </div>
+            <div id="chuangxin">
+                <ul id="chuanxinone">
+                    <li><a href="#">创新：中国经济发展的不竭动力</a></li>
+                    <li><a href="#">李克强：校园应是最安全地方  就业成绩单</a></li>
+                    <li><a href="#">重磅！中国经济怎么看、怎么想、怎么干</a></li>
+                </ul>
+                <ul id="chuanxintwo">
+                    <li>
+                        <a href="#">家庭家教家风</a>
+                        <a href="#">见文明家庭代表</a>
+                        <a href="#">讲话引起热烈反响</a>
+                        <a href="#">治国</a>
+                    </li>
+                    <li>
+                        <a href="#">"双创"是经济转型最大新动能</a>
+                        <a href="#">张德江</a>
+                        <a href="#">俞正声</a>
+                        <a href="#">刘云山</a>
+                        <a href="#">中国人的故事</a>
+                    </li>
+                    <li>
+                        <a href="#">图解：经济"新方位"</a>
+                        <a href="#">中央经济工作会议前瞻</a>
+                        <a href="#">加快建立房地产长效机制</a>
+                    </li>
+                </ul>
+            </div>
+            <div  id="gonganbu">
+                <ul id="gonganbuone">
+                    <li><a href="#">公安部破获特大贩婴案：抓获157人 解救36名儿童</a></li>
+                    <li><a href="#">国台办：坚持一中原则是发展中美关系的政治基础</a></li>
+                    <li><a href="#">最新各地最低工资标准出炉 看看你家有多高</a></li>
+                    <li><a href="#">春运首日火车票明起开售 腊月廿八车票或最难抢</a></li>
+                    <li><a href="#">日媒聚焦南京国家公祭日活动：紧盯纪念仪式</a></li>
+                </ul>
+                <div id="guojiaall">
+                    <ul>
+                        <li>
+                            <ul>
+                                <li><a href="#">国家电网被曝千万用户信息泄露 官方急开会深夜回应</a></li>
+                                <li><a href="#">移动源污染监管存不足 环保部门无上路拦车权限</a></li>
+                                <li><a href="#">学者聚焦校园欺凌：具有反复性隐秘性</a></li>
+                                <li><a href="#">女子买9100元冥币当美元存入银行 通过ATM提现</a></li>
+                                <li><a href="#">马英九谈两岸与台美关系：不能拉一个打一个</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">飘落氢气球被小孩捡回家 炸毁房屋致二死三伤</a></li>
+                                <li><a href="#">外媒：中国成单身大国 超36%单身女性选择不婚</a></li>
+                                <li><a href="#">下岗夫妻10年寄养8孤儿 视同己出嘴对嘴为病儿吸痰</a></li>
+                                <li><a href="#">山东海阳电子厂车间发生火灾 5人失联4人受伤</a></li>
+                                <li><a href="#">涡阳一镇委书记被指涉不正常男女关系，县纪委回应</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">普京接受日媒采访前与秋田犬玩耍</a></li>
+                                <li><a href="#">天降酸奶瓶砸人案：2层及以上448户分摊16万赔偿</a></li>
+                                <li><a href="#">香港航班信息被曝“失踪”75秒 航班暂停4分钟</a></li>
+                                <li><a href="#">中学推平板教学收280万元 学生排队催家长送钱</a></li>
+                                <li><a href="#">山西黑老大涉聚众扰乱秩序案开庭 两狱警涉案</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">文化部：网络直播平台需许可证 主播实名注册</a></li>
+                                <li><a href="#">燕郊首富孙子驾宾利撞车身亡 26岁名下有多家公司</a></li>
+                                <li><a href="#">成都交警执勤途中遇车祸 倒地前瞬间推开同车协警</a></li>
+                                <li><a href="#">2名男子拿"圣旨"解冻"民族资产"骗走行长91万</a></li>
+                                <li><a href="#">演员白静被杀案中案终审宣判 "小三"乔宇获刑11年</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li><a href="#">国内成品油调价窗口今开启 或迎四年来最大涨幅</a></li>
+                                <li><a href="#">海归女患上盗窃癖屡犯案 称19岁行窃后不能自控</a></li>
+                                <li><a href="#">不知悔改!“辱国议员”梁、游将上诉至香港终审法院</a></li>
+                                <li><a href="#">英女首相穿995英镑皮裤被指奢侈 引发口水战</a></li>
+                                <li><a href="#">外卖平台区域经理与他人勾结 恶意刷单400余万元</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="rightall">
+            <img src="img/1.jpg" id="img">
+            <a href="#" id="hotnews">热搜新闻词</a>
+            <div id="hotword">
+                <ul id="hotwordone">
+                    <li  class="one one_one"><a href="#">习近平谈把握经济<br>新常态“大逻辑”</a></li>
+                    <li  class="one one_one othercolor"><a href="#">一“习”话，彰显<br>总书记家国情怀</a></li>
+                    <li  class="one one_two"><a href="#" style="font-size: 0.5rem;">42城启动空气<br>污染应急响应</a></li>
+                    <li  class="one one_two"><a href="#" style="font-size: 0.5rem;">12306购票<br>近6成将无需验<br>证码</a></li>
+                </ul>
+                <ul id="hotwordtwo">
+                    <li class="one one_three othercolor"><a href="#">古特雷斯就任<br>联合国秘书长</a></li>
+                    <li class="one one_three"><a href="#">国家公祭日</a></li>
+                    <li class="one one_three othercolor"><a href="#">NASA携手霍金<br>打造星际飞船</a></li>
+                    <li class="one one_three"><a href="#">社保缴费基数<br>有望调低</a></li>
+                    <li class="one one_three"><a href="#">风云四号卫星发射成功</a></li>
+                    <li class="one one_three othercolor"><a href="#">发改委明确不动产收费标准</a></li>
+                </ul>
+                <div id="changecolor">
+                    <ul id="hotwordone_one">
+                        <li  class="one_change one_one"></li>
+                        <li  class="one_change one_one"></li>
+                        <li  class="one_change one_two"></li>
+                        <li  class="one_change one_two"></li>
+                    </ul>
+                    <ul id="hotwordtwo_two">
+                        <li class="one_change one_three"></li>
+                        <li class="one_change one_three"></li>
+                        <li class="one_change one_three"></li>
+                        <li class="one_change one_three"></li>
+                        <li class="one_change one_three"></li>
+                        <li class="one_change one_three"></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" id="baiduhome">百度百家</a>
+            <div id="leftleft">
+                <img src="img/9.jpg">
+                <a href="#" id="zg">中国为何驾驭不了科幻片</a>
+                <ul id="tv">
+                    <li><img src="img/10.jpg" style="margin-right: 16px;"></li>
+                    <li><img src="img/10.jpg"></li>
+                </ul>
+                <ul id="guonei">
+                    <li style="margin-right: 16px;">国内电视为何难以<br>突围国际市场?</li>
+                    <li>优酷自频道赋能内<br>容创业火爆全年</li>
+                </ul>
+                <a href="#" id="baihome">百家聚焦</a>
+                <a href="#" id="baiimg"><img src="img/11.jpg"></a>
+                <a href="#" id="dianying">电影改编怎么玩</a>
+            </div>
+            <div id="rightright">
+                <ul id="rightone">
+                    <li><a href="#" style="font-weight: 600">未来智能语音时代如何开启？</a></li>
+                    <li><a href="#">成功企业的那些DNA密码</a></li>
+                    <li><a href="#">沙县小吃如何席卷全国？</a></li>
+                    <li><a href="#">霍兹重启CommaNeo项目</a></li>
+                    <li><a href="#">ARM联合阿里巴巴“搞事”</a></li>
+                </ul>
+                <ul id="righttwo">
+                    <li><a href="#" style="font-weight: 600">未来智能语音时代如何开启？</a></li>
+                    <li><a href="#">成功企业的那些DNA密码</a></li>
+                    <li><a href="#">沙县小吃如何席卷全国？</a></li>
+                    <li><a href="#">霍兹重启CommaNeo项目</a></li>
+                    <li><a href="#">ARM联合阿里巴巴“搞事”</a></li>
+                </ul>
+                <ul id="rightthree">
+                    <li><a href="#">李东楼</a></li>
+                    <li><a href="#">于凡诺</a></li>
+                    <li><a href="#">面包财经</a></li>
+                    <li><a href="#">百略网</a></li>
+                    <li><a href="#">百略网</a></li>
+                </ul>
+                <ul id="rightfour">
+                    <li><a href="#">刘华芳</a></li>
+                    <li><a href="#">极客视界</a></li>
+                    <li><a href="#">小刀马</a></li>
+                    <li><a href="#">新榜一一内</a></li>
+                    <li><a href="#">牛透社</a></li>
+                </ul>
+                <a href="#" id="hottext">热门文章</a>
+                <ol id="rightfive">
+                    <li><a href="#">陷入“电池门”还如此傲骄，苹</a></li>
+                    <li><a href="#">打击二手房价 上海用了最狠一招</a></li>
+                    <li><a href="#">陷入内外困境的GoPro还能重回巅峰吗？</a></li>
+                    <li><a href="#">牵手腾讯，58同城能否涅槃重生</a></li>
+                    <li><a href="#">任正非何以判断金融危机即将到来？</a></li>
+                </ol>
+                <ul id="rightsix">
+                    <li><a href="#">陈叔</a></li>
+                    <li><a href="#">齐俊杰</a></li>
+                    <li><a href="#">文庚淼</a></li>
+                    <li><a href="#">卞海峰</a></li>
+                    <li><a href="#">齐俊杰</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
