@@ -112,5 +112,5 @@
         mz.style.backgroundColor = null;
     }
 
-   
+
 }());
