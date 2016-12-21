@@ -61,7 +61,6 @@
 
     //轮换图片数组
     var lunBoQi = document.getElementById('tuPian');
-    //var tuArr = ["../images/shouye/shouye1.png","../images/shouye/1.jpg","../images/shouye/2.jpg","../images/shouye/3.jpg","../images/shouye/shouye1.png"];
     var tuArr = ["img/1.jpg","img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg","img/6.jpg","img/7.jpg","img/8.jpg"];
     var lanDian = document.getElementsByClassName("myDiv");
     var num = 0;
@@ -97,6 +96,7 @@
         }(i))
     }
 
+
     var keji = document.getElementById("keji");
     var more = document.getElementById("more");
     var mz = document.getElementById('mz');
@@ -114,6 +114,7 @@
 //右侧div
     var right_img = document.getElementsByClassName('right_img');
     var rightimg = document.getElementsByClassName("rightimg");
+
     for(var a = 0;a < right_img.length;a++){
         (function(a){
             right_img[a].onmouseover = function(){
@@ -126,4 +127,13 @@
             }
         })(a)
     }
+
+    $(document).ready(function(){
+        $('#right1_img').mouseenter(function(){
+            $('#right_ewm').show();
+        })
+        $('#right7_img').mouseleave(function(){
+            $('#right_ewm').hide();
+        })
+    })
 }());

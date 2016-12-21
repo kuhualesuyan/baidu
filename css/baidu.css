@@ -721,18 +721,9 @@ a{
     display: block;
 }
 /*右侧图片*/
-/*#right_div{*/
-    /*position: fixed;*/
-    /*width: 54px;*/
-    /*!*background-color: red;*!*/
-    /*height: 306px;*/
-    /*z-index: 5;*/
-/*element.style {*/
-/*}*/
 #right_div {
     position: fixed;
     width: 54px;
-    /* background-color: red; */
     height: 306px;
     z-index: 5;
     overflow: hidden;
@@ -833,4 +824,11 @@ a{
     border-radius: 3px;
     transform: rotate3d(0,0,1,90deg);
     transform-origin: -50% 41%;
+}
+#right_ewm{
+    position: fixed;
+    left: 47.3rem;
+    top: 11.3rem;
+    z-index: 4;
+    display: none;
 }
