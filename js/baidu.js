@@ -2,7 +2,7 @@
     //导航
     var b_nav = {};
     b_nav.li_left = 0;
-    b_nav.li_width = 0;
+    b_nav.li_wdith = 0;
     var b_nav1 = document.getElementById('b_nav');
     var ani_red = document.getElementById('ani_red');
     var b_nav_li = document.getElementsByClassName('b_nav_li');
@@ -10,7 +10,7 @@
         (function(i){
             b_nav_li[i].onmouseover = function () {
                 var that = this;
-                b_nav.redHoverTimer = setTimeout(function(){
+                b_nav.redHoverTimer = setInterval(function(){
                     var left = that.offsetLeft;
                     var the_width= that.clientWidth;
                     var all_left = b_nav1.offsetLeft;
@@ -32,8 +32,8 @@
     }
     b_nav1.onmouseout = function (){
         clearTimeout(b_nav.redHoverTimer);
-        ani_red.style.left = b_nav.li_left;
-        ani_red.style.width = b_nav.li_wdith;
+       ani_red.style.left = b_nav.li_left;
+       // ani_red.style.width = b_nav.li_wdith;
     }
     b_nav1.onmouseover = function () {
         ani_red.style.display = 'inline-block';
@@ -55,7 +55,7 @@
         }
         theLi.classList.add('b_nav_li_active');
         ani_red.style.left = b_nav.li_left + 'px';
-        ani_red.style.width = b_nav.li_wdith + 'px';
+       ani_red.style.width = b_nav.li_wdith + 'px';
     }
 
 
@@ -111,6 +111,28 @@
     if(more.style.backgroundColor == '#cc0000'){
         mz.style.backgroundColor = null;
     }
-
+//右侧div
+    var right_img = document.getElementsByClassName('right_img');
+    var rightimg = document.getElementsByClassName("rightimg");
+    for(var a = 0;a < right_img.length;a++){
+        (function(a){
+            right_img[a].onmouseover = function(){
+                rightimg[a].style.transform=  'rotate3d(0,0,1,0deg)';
+                rightimg[a].style.transition = 'transform .3s ease-in';
+            }
+            right_img[a].onmouseout = function(){
+                rightimg[a].style.transform=  'rotate3d(0,0,1,90deg)';
+                rightimg[a].style.transition = 'transform .3s ease-in';
+            }
+        })(a)
+    }
+    //right1_img.onmouseover = function(){
+    //    right7_img.style.transform=  'rotate3d(0,0,1,0deg)';
+    //    right7_img.style.transition = 'transform .3s ease-in';
+    //}
+    //right7_img.onmouseout = function(){
+    //    right7_img.style.transform=  'rotate3d(0,0,1,90deg)';
+    //    right7_img.style.transition = 'transform .3s ease-in';
+    //}
 
 }());

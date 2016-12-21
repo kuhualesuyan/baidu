@@ -70,6 +70,11 @@ a{
     border: 0;
     color: white;
     font-size: 1rem;
+    cursor: pointer;
+}
+#search button:hover{
+    background: #317ef3;
+    box-shadow: 1px 1px 1px #ccc
 }
 #search ul{
     position: absolute;
@@ -658,7 +663,7 @@ a{
     width: 295px;
     height: 39px;
     position: absolute;
-    top: 306px;
+    top: 290px;
     left: 741px;
     z-index: 4;
 }
@@ -701,4 +706,123 @@ a{
 }
 #zg:hover{
     background-color: rgba(0,0,0,1);
+}
+#xwewm_img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 698px;
+    top: 22px;
+    z-index: 4;
+    display: none;
+    cursor: pointer;
+}
+#href:hover #xwewm_img{
+    display: block;
+}
+/*右侧图片*/
+#right_div{
+    position: fixed;
+    width: 54px;
+    /*background-color: red;*/
+    height: 306px;
+    z-index: 5;
+    left: 1121px;
+    overflow: hidden;
+}
+#right1_img{
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#right2_img{
+    position: absolute;
+    left: 3px;
+    top: 53px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#right3_img{
+    position: absolute;
+    left: 3px;
+    top: 104px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#right4_img{
+    position: absolute;
+    left: 3px;
+    top: 155px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#right5_img{
+    position: absolute;
+    left: 3px;
+    top:  206px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#right6_img{
+    position: absolute;
+    left: 3px;
+    top:  257px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#right7_img{
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: rotate3d(0,0,1,90deg);
+    transform-origin: -50% 41%;
+}
+#right8_img{
+    position: absolute;
+    left: 3px;
+    top: 53px;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: rotate3d(0,0,1,90deg);
+    transform-origin: -50% 41%;
+}
+#right9_img{
+    position: absolute;
+    left: 3px;
+    top: 104px;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: rotate3d(0,0,1,90deg);
+    transform-origin: -50% 41%;
+}
+#right10_img{
+    position: absolute;
+    left: 3px;
+    top: 155px;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: rotate3d(0,0,1,90deg);
+    transform-origin: -50% 41%;
+}
+#right11_img{
+    position: absolute;
+    left: 3px;
+    top:  206px;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: rotate3d(0,0,1,90deg);
+    transform-origin: -50% 41%;
+}
+#right12_img{
+    position: absolute;
+    left: 3px;
+    top:  257px;
+    cursor: pointer;
+    border-radius: 3px;
+    transform: rotate3d(0,0,1,90deg);
+    transform-origin: -50% 41%;
 }
