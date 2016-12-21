@@ -96,6 +96,47 @@
         }(i))
     }
 
+    var zuo1_img = document.getElementById('zuo1_img');
+    var you1_img = document.getElementById('you1_img');
+    zuo1_img.onclick = function qieHuan() {
+        lunBoQi.src = tuArr[num];
+    	for(var j = 0;j<lanDian.length;j++){
+    		lanDian[j].style.background = "#fff";
+    		}
+    	lanDian[7-((num+8)%8)].style.background = "#21749e";
+    	num =(num+1)%8;
+    	window.clearInterval(timer);
+    }
+    you1_img.onclick = function qieHuan() {
+        lunBoQi.src = tuArr[num];
+    	for(var j = 0;j<lanDian.length;j++){
+          lanDian[j].style.background = "#fff";
+    		}
+        lanDian[(num+8)%8].style.background = "#21749e";
+        num =(num+1)%8;
+    	window.clearInterval(timer);
+    }
+    //点击切换图片
+    $(document).ready(function(){
+        $('#zuo_img').mouseenter(function(){
+            $('#zuo1_img').show(1000);
+            $('#zuo_img').hide();
+        })
+        $('#you_img').mouseenter(function(){
+            $('#you1_img').show(1000);
+            $('#you_img').hide();
+
+        })
+        $('#zuo1_img').mouseleave(function(){
+            $('#zuo1_img').hide('slow');
+            $('#zuo_img').show()
+        })
+        $('#you1_img').mouseleave(function(){
+            $('#you1_img').hide('slow');
+            $('#you_img').show();
+
+        })
+    })
 
     var keji = document.getElementById("keji");
     var more = document.getElementById("more");
@@ -136,4 +177,5 @@
             $('#right_ewm').hide();
         })
     })
+
 }());

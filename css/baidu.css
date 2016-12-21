@@ -8,6 +8,9 @@ body,div{
 ul{
     list-style: none;
 }
+ul li a{
+    z-index:5;
+}
 a{
     color: black;
     font-size: 0.8rem;
@@ -373,13 +376,15 @@ a{
     text-align: center;
     background-color: #17a2b7;
     opacity: 0.5;
+
 }
 .one_change:hover{
     position: relative;
     text-align: center;
-    background-color: #3064BB;
+    /*background-color: #3064BB;*/
     animation: myfirst 2s;
     cursor: pointer;
+    background: #3064bb;
 }
 @keyframes myfirst{
     0%{background: #3064BB;left: 0;top:0;height: 88px}
@@ -426,6 +431,7 @@ a{
     width: 100%;
     height: 200px;
     margin-left: -40px;
+    /*visibility: hidden;*/
 }
 #hotwordtwo_two li{
     float: left;
@@ -830,5 +836,27 @@ a{
     left: 47.3rem;
     top: 11.3rem;
     z-index: 4;
+    display: none;
+}
+#zuo_img{
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+}
+#you_img{
+    position: absolute;
+    top: 8rem;
+    left: 32rem;
+}
+#zuo1_img{
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    display: none;
+}
+#you1_img{
+    position: absolute;
+    top: 8rem;
+    left: 31rem;
     display: none;
 }
