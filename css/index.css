@@ -1,27 +1,26 @@
 body {
     padding: 0;
     margin: 0;
+    height: 37.5rem;
 }
 
 #shouye_div {
-    width: 1226px;
-    height: 545px;
-    /*background-color: blue;*/
+    width: 100%;
+    height: 37rem;
+    margin: 0 auto;
 }
 
 #head_div {
-    width: 1226px;
-    height: 191px;
-    /*background-color: yellow;*/
+    width: 100%;
+    height: 12rem;
     position: absolute;
-    top: 35px;
+    top: 2rem;
 }
 
 #logo_div {
     text-align: center;
     width: 1226px;
     height: 121px;
-    /*background-color: red;*/
 }
 
 #logo_div img {
@@ -78,8 +77,8 @@ body {
     width: 481px;
     height: 24px;
     position: absolute;
-    top: -24px;
-    left: 744px;
+    top: -1rem;
+    right: 1rem;
 }
 
 .head_ul {
@@ -155,9 +154,9 @@ body {
 
 #end_div {
     position: absolute;
-    top: 418px;
-    width: 1226px;
-    height: 137px;
+    top: 25rem;
+    width: 100%;
+    height: 9rem;
 }
 
 #end_div a {
@@ -209,14 +208,14 @@ body {
 }
 
 #right_div {
-    width: 85px;
+    width: 5rem;
     border-left: 1px solid #e7e7e7;
     position: absolute;
     background-color: #f9f9f9;
     z-index: 2;
-    right: 0;
+    right: 1rem;
     top: 0;
-    height: 597px;
+    height: 37rem;
     display: none;
 }
 
@@ -328,8 +327,8 @@ body {
 }
 
 #opacity_div {
-    width: 1242px;
-    height: 600px;
+    width: 100%;
+    height: 37.5rem;
     background-color: gray;
     position: absolute;
     top: 0;
@@ -340,14 +339,15 @@ body {
 #dl_div {
     width: 393px;
     height: 505px;
-    position: absolute;
-    top: 45px;
-    left: 382px;
+    position: relative;
+    top: -34rem;
     background-color: #FFF;
     display: none;
+    margin: 0 auto;
 }
 
 #dl_head {
+    position: relative;
     background-color: #f7f7f7;
     border: 1px solid #ddd;
     width: 392px;
@@ -379,13 +379,16 @@ body {
 }
 
 #dl_body {
+    position: relative;
     width: 393px;
-    height: 458px;
+    height: 369px;
 }
 
 #xinxidl {
     width: 393px;
     height: 19px;
+    position: absolute;
+    top: 0.2rem;
 }
 
 #xinxidl img {
@@ -399,7 +402,7 @@ body {
     text-decoration: none;
     position: absolute;
     left: 307px;
-    top: 53px;
+    top: 0.2rem;
 }
 
 #xinxidl a:hover {
@@ -412,7 +415,7 @@ body {
     height: 200px;
     position: absolute;
     left: 22px;
-    top: 78px;
+    top: 2rem;
 }
 
 .dl_input {
@@ -481,7 +484,7 @@ body {
     width: 350px;
     height: 76px;
     position: absolute;
-    top: 287px;
+    top: 15rem;
     left: 22px;
 }
 
@@ -517,8 +520,7 @@ body {
 #end_dl {
     width: 393px;
     height: 89px;
-    position: absolute;
-    top: 419px;
+    position: relative;
     border-top: 1px solid #eee;
 }
 
@@ -546,17 +548,17 @@ body {
 #saoma_img {
     position: absolute;
     left: 351px;
-    top: 42px;
+    top: 43px;
     cursor: pointer;
 }
 
 #erweima_div {
     width: 393px;
-    height: 458px;
-    position: absolute;
-    top: 91px;
-    left: 382px;
+    height: 455px;
+    position: relative;
+    /*top: -29rem;*/
     background-color: #FFF;
+    margin: 0 auto;
     display: none;
 }
 
@@ -604,6 +606,6 @@ body {
 #dianshi_img {
     position: absolute;
     left: 349px;
-    top: 416px;
+    top: 413px;
     cursor: pointer;
 }

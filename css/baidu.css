@@ -721,14 +721,22 @@ a{
     display: block;
 }
 /*右侧图片*/
-#right_div{
+/*#right_div{*/
+    /*position: fixed;*/
+    /*width: 54px;*/
+    /*!*background-color: red;*!*/
+    /*height: 306px;*/
+    /*z-index: 5;*/
+/*element.style {*/
+/*}*/
+#right_div {
     position: fixed;
     width: 54px;
-    /*background-color: red;*/
+    /* background-color: red; */
     height: 306px;
     z-index: 5;
-    left: 1121px;
     overflow: hidden;
+    margin-left: 63rem;
 }
 #right1_img{
     position: absolute;

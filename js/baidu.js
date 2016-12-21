@@ -126,13 +126,4 @@
             }
         })(a)
     }
-    //right1_img.onmouseover = function(){
-    //    right7_img.style.transform=  'rotate3d(0,0,1,0deg)';
-    //    right7_img.style.transition = 'transform .3s ease-in';
-    //}
-    //right7_img.onmouseout = function(){
-    //    right7_img.style.transform=  'rotate3d(0,0,1,90deg)';
-    //    right7_img.style.transition = 'transform .3s ease-in';
-    //}
-
 }());

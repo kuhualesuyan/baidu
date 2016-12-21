@@ -80,13 +80,15 @@ pwd.onblur = function () {
 
 var saoma_img = document.getElementById('saoma_img');
 var dianshi_img = document.getElementById("dianshi_img");
+var dl_body = document.getElementById("dl_body");
+var end_dl = document.getElementById("end_dl");
 saoma_img.onclick = function () {
-  saoma_img.src = 'img/index/dianshi.png';
+  dl_body.style.display = "none";
+  end_dl.style.display = "none";
   erweima_div.style.display = 'block';
-  dl_div.style.display = 'none';
-}
+};
 dianshi_img.onclick = function () {
-  dianshi_img.src = 'img/index/saoma.png';
+  dl_body.style.display = "block";
+  end_dl.style.display = "block";
   erweima_div.style.display = 'none';
-  dl_div.style.display = 'block';
-}
+};
